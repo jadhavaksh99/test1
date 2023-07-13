@@ -14,12 +14,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....  This is the deployment phase. right'
+                echo 'Deploying....  This is the deployment phase.'
             }
         }
 	stage('Postdeploy') {
 		steps {
-			echo 'Postdeployment phase.right...'
+			echo 'Postdeployment phase....'
 		}
 	}
     }
